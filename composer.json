@@ -1,5 +1,5 @@
 {
-    "name": "psr/http-factory",
+    "name": "rsemenyshyn/http-factory",
     "description": "Common interfaces for PSR-7 HTTP message factories",
     "keywords": [
         "psr",
