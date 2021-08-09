@@ -30,5 +30,5 @@ interface UploadedFileFactoryInterface
         int $error = \UPLOAD_ERR_OK,
         string $clientFilename = null,
         string $clientMediaType = null
-    ): UploadedFileInterface;
+    );
 }
