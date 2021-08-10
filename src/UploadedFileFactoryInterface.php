@@ -25,10 +25,10 @@ interface UploadedFileFactoryInterface
      * @throws \InvalidArgumentException If the file resource is not readable.
      */
     public function createUploadedFile(
-        StreamInterface $stream,
-        int $size = null,
-        int $error = \UPLOAD_ERR_OK,
-        string $clientFilename = null,
-        string $clientMediaType = null
+        $stream,
+        $size = null,
+        $error = \UPLOAD_ERR_OK,
+        $clientFilename = null,
+        $clientMediaType = null
     );
 }
